@@ -1,0 +1,90 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+h1:hover{
+   color: goldenrod;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+#title{
+    font-size: 25px;
+}
+#lyricSong{
+    height: 100%;
+    overflow: auto;
+}
+.lyrics-name{
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(238, 16, 146);
+}
+#homePage{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 20%;
+}
+#clean{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 20%;
+}
+.author{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: 700;
+    color: white;
+}
+.artist-image{
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+footer p>span{
+    font-weight: 500;
+    font-size: 16px;
+}
+footer p{
+    color: rgba(223, 235, 223, 0.6);
+}
+footer p>span>img{
+    height: 25px;
+    width: 25px;
+}
